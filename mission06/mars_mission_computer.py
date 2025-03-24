@@ -1,6 +1,5 @@
 import random
-
-
+from datetime import datetime
 class DummySensor:
     def __init__(self):
         self.env_values = {
@@ -22,7 +21,7 @@ class DummySensor:
 
     def get_env(self):
         log_message = (
-            f"테스트 실행 시간, "
+            f"{datetime.now()}, "
             f"화성 기지 내부 온도: {self.env_values['mars_base_internal_temperature']:.2f}도, "
             f"화성 기지 외부 온도: {self.env_values['mars_base_external_temperature']:.2f}도, "
             f"화성 기지 내부 습도: {self.env_values['mars_base_internal_humidity']:.2f}%, "
