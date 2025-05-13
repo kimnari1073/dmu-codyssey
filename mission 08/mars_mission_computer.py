@@ -11,6 +11,7 @@ except ImportError:
     raise ImportError("psutil 라이브러리를 설치해주세요. (pip install psutil)")
 
 # DummySensor 클래스 정의
+
 class DummySensor:
     def __init__(self):
         self.env_values = {
