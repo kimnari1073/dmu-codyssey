@@ -1,0 +1,9 @@
+{
+  "Operating System": true,
+  "OS Version": false,
+  "CPU Type": true,
+  "CPU Core Count": true,
+  "Total Memory (GB)": true,
+  "CPU Usage (%)": true,
+  "Memory Usage (%)": true
+}
